@@ -1,0 +1,6 @@
+#Filter long words, create a list with only words that have more than 4 letters.
+
+words = ["sol", "lua", "estrelas", "planeta"]
+
+r = [p for p in words if len(p) > 4]
+print(r)
